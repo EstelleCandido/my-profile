@@ -1,0 +1,189 @@
+body { 
+    background-color:#8e7474 ;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+    margin: auto;
+ }
+ .container { 
+    box-shadow: 8px 10px 30px rgb(0 0 0 / 10%);
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 68px;
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width : 750px)
+.container {
+    width 600px;
+}
+
+@media (max-width : 500px)
+.container {
+    width 400px;
+}
+
+@media (max-width : 300px)
+.container {
+    width 200px;
+}
+
+
+img { 
+    box-shadow: 8px 10px 30px rgb(0 0 0 / 10%);
+    margin: 0px 220px;
+    padding-inline: 30px;
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+    width: 220px
+ }
+
+
+h1 {
+ 	color: #3d3432;
+ 	font-family: Helvetica;
+ 	font-weight: 17px;
+ 	text-align: center;
+ 	background: rgb(237, 228, 224);
+    margin: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 7px 5px 0px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 30px;
+ }
+
+.card-white {
+    box-shadow: 8px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+#card-CV a:hover {
+  background-color: #635754;
+  color: rgb(237, 228, 224);
+  border-color: whitesmoke;
+  }
+
+
+
+h2 {
+    Background-color: #b29b9b;
+    color: whitesmoke;
+    font-family: Helvetica;
+    font-weight: 15x;
+    box-shadow: 8px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 13px;
+    width: 5°°px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+#card-DIY {
+box-shadow: 8px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 5°°px;
+    margin-right: 200px;
+    margin-top:50px;
+    text-align: center
+}
+
+
+#card-Cooking {
+box-shadow: 8px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 5°°px;
+    margin-left: 200px;
+    margin-top:50px;
+    text-align: center
+}
+
+
+#card-Tennis {
+    box-shadow: 8px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 5°°px;
+    margin-right: 200px;
+    margin-top:50px;
+    text-align: center
+}
+
+
+h3 {
+	font-family: helvetica;
+    background-color:#whitesmoke;
+    text-align: center;
+	color:#594545;
+    margin: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    box-shadow: 7px 5px 20px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    padding: 1px;
+}
+
+ a {
+    text-decoration: none;
+    color: #3d3432;
+    font-family: system-ui;
+    font-weight: bold;
+    box-shadow: 15px 5px 4px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    background: rgb(237, 228, 224);
+    margin: 50px;
+    padding: 10px;
+    margin-block: auto;
+
+}
+
+.list-horizontal {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 2px;
+
+}
+
+li {
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+
+}
+
+#card-linkedin a:hover {
+  background-color: #EDF3F8;
+  color: #1666c2;
+  border-color: whitesmoke;
+}
+
+#card-fb a:hover {
+  background-color: #F0F2F5;
+  color: #166FE5;
+  border-color: whitesmoke;
+}
+
+#card-twitter a:hover {
+  background-color: #DFF6FF;
+  color: #47B5FF;
+  border-color: whitesmoke;
+}
+
+
+
+
